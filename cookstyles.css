@@ -1,5 +1,17 @@
 body {
-    margin: 0px;
+    background-color: purple;
+    margin: 0;
+}
+
+.whole {
+    background-color: white;
+    width: 1640px;
+    margin: 0 auto;
+    min-height: 120vh;
+    padding: 5px;
+    top: 0;
+    box-shadow: 0 0 20px gray;
+    box-sizing: border-box;
 }
 
 .container {
@@ -8,7 +20,13 @@ body {
 }
 
 
-
+#title {
+    width: 1640px;
+    font-size: 4em;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0;
+}
 
 .nav-wrapper {
     display: flex;
