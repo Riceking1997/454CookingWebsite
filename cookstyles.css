@@ -160,12 +160,24 @@ li a:hover:not(.active) {
     justify-content: center;
 }
 
+.videos {
+    text-align: center;
+}
+
 .gallimg {
     width: auto;
     height: 250px;
     display: block;
     background-size: cover;
     padding: 8px;
+}
+
+.toolsimg {
+    width: auto;
+    height: 250px;
+    background-size: cover;
+    padding: 8px;
+    text-align: center;
 }
 
 .rating {
